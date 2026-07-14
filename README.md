@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-## Getting Started
-=======
 # Java Password Validator
->>>>>>> 82ae3089d160370fca69099776b1af8ec89875eb
 
 Validador de senhas desenvolvido em Java, criado como exercício de estruturas condicionais e de repetição. O programa recebe uma senha do usuário e verifica se ela atende a critérios mínimos de segurança, retornando um feedback detalhado sobre quais regras não foram cumpridas.
 
@@ -30,12 +25,6 @@ Uma senha é considerada válida quando contém, ao mesmo tempo:
 
 ## Como executar
 
-<<<<<<< HEAD
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-=======
-# java-password-validator
->>>>>>> 1a7e211d0116a52e0022b6e4914ffdf162f097f0
-=======
 Pré-requisito: [JDK](https://www.oracle.com/java/technologies/downloads/) instalado (versão 8 ou superior).
 
 ```bash
@@ -70,7 +59,6 @@ Sua senha segue os padrões!
 
 ## Tecnologias utilizadas
 
-
 - Java
 - `java.util.Scanner` para entrada de dados
 - Estruturas condicionais (`if`/`else`) e de repetição (`for`)
@@ -85,4 +73,3 @@ Sua senha segue os padrões!
 ## Autor
 
 Desenvolvido por [Matheus da Cruz da Silva](https://github.com/matheuscrzs).
->>>>>>> 82ae3089d160370fca69099776b1af8ec89875eb
