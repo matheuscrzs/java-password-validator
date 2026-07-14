@@ -70,6 +70,7 @@ Sua senha segue os padrões!
 
 ## Tecnologias utilizadas
 
+
 - Java
 - `java.util.Scanner` para entrada de dados
 - Estruturas condicionais (`if`/`else`) e de repetição (`for`)
