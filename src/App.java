@@ -8,17 +8,17 @@ public class App {
         String senha = entrada.next();
 
         if (verificaSenha(senha)) {
-            System.out.println("Sua senha segue os padrões !");
+            System.out.println("Sua senha atende os requisitos de segurãnça !");
 
         } else {
-            System.out.println("Sua invalida, não atende os padroes");
+            System.out.println("Senha invalida, não atende os requisitos de segurãnça. ");
         }
 
     }
 
     public static boolean verificaSenha(String senha) {
-        if (senha.length() < 8) {
-            System.out.println("Senha muito curta!!!");
+      if (senha.length() < 8) {
+            System.out.println("Sua senha precisa ter no mínimo 8 digitos. ");
             return false;
         }
         boolean letraMaiuscula = false;
@@ -42,6 +42,22 @@ public class App {
 
     }
 
+
+         
+        if (!letraMaiuscula) {
+            System.out.println("Sua senha precisa de ao menos uma letra maiúscula !");
+            
+        } if (!letraMinuscula) {
+            System.out.println("Sua senha precisa de ao menos uma letra minúscula !");
+        } if (!digito) {
+            System.out.println("Sua senha precisa de ao menos um número !");
+        } if (!CharEspec) {
+            System.out.println("Sua senha precisa de ao menos um caractere especial ! (Ex: @, #, _, &). ");
+        }
+
+        
     return letraMaiuscula&&letraMinuscula&&digito&&CharEspec;
-} 
+
+}
+
 }
