@@ -67,8 +67,34 @@ java App
 Digite sua Senha:
 abc123
 
+
 Sua senha precisa de ao menos uma letra maiúscula !
 Sua senha precisa de ao menos um caractere especial ! (Ex: @, #, _, &).
 Senha invalida, não atende os requisitos de segurãnça.
 Senha Fraca
 ``` 
+
+``` 
+Digite sua Senha:
+ABCDabcdefghi1234@#$%
+
+Sua senha atende os requisitos de segurãnça !
+Senha Excelente
+```
+
+## Tecnologias utilizadas
+
+- Java
+- `java.util.Scanner` para entrada de dados
+- Estruturas condicionais (`if`/`else`) e de repetição (`for`)
+
+## O que aprendi com este projeto
+
+- Manipulação de strings caractere por caractere (`toCharArray()`, `Character.isUpperCase()`, `Character.isDigit()`, etc.)
+- Boas práticas de retorno antecipado (early return)
+- Diferença entre variáveis de instância e variáveis locais
+- Organização de mensagens de erro para melhorar a experiência do usuário
+
+## Autor
+
+Desenvolvido por [Matheus da Cruz da Silva](https://github.com/matheuscrzs).
